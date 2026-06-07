@@ -46,3 +46,57 @@ nav a {
 nav a:hover {
     color: #1D9E75;
 }
+
+/* Hero Section */
+main section:first-child {
+    text-align: center;
+    padding: 80px 40px;
+    background-color: #ffffff;
+}
+
+main section:first-child h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #1a1a2e;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+
+main section:first-child p {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 32px;
+}
+
+main section:first-child a {
+    background-color: #1D9E75;
+    color: #ffffff;
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+main section:first-child a:hover {
+    background-color: #178a63;
+}
+
+main section:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 40px;
+    background-color: #f5f7fa;
+}
+
+main section:nth-child(2) h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1D9E75;
+    margin-bottom: 4px;
+}
+
+main section:nth-child(2) p {
+    font-size: 14px;
+    color: #666666;
+}
