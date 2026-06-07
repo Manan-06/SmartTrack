@@ -100,3 +100,83 @@ main section:nth-child(2) p {
     font-size: 14px;
     color: #666666;
 }
+
+/* Features Section */
+main section:nth-child(3) {
+    padding: 60px 40px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+main section:nth-child(3) h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #1a1a2e;
+}
+
+main section:nth-child(3) div {
+    display: inline-block;
+    width: 22%;
+    margin: 0 1%;
+    vertical-align: top;
+    background-color: #f5f7fa;
+    border-radius: 12px;
+    padding: 24px;
+    text-align: left;
+}
+
+main section:nth-child(3) h3 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #1D9E75;
+    margin-bottom: 8px;
+}
+
+main section:nth-child(3) p {
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.6;
+}
+
+/* CTA Section */
+main section:nth-child(4) {
+    padding: 80px 40px;
+    background-color: #1D9E75;
+    text-align: center;
+}
+
+main section:nth-child(4) h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+main section:nth-child(4) p {
+    font-size: 16px;
+    color: #e0f5ee;
+    margin-bottom: 32px;
+}
+
+main section:nth-child(4) a {
+    background-color: #ffffff;
+    color: #1D9E75;
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+main section:nth-child(4) a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a2e;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 24px 40px;
+    font-size: 14px;
+}
