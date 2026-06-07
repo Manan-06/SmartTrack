@@ -442,6 +442,15 @@ footer {
         overflow-x: auto;
     }
 
+    .recent-courses table {
+    font-size: 12px;
+    }
+
+.recent-courses th,
+.recent-courses td {
+    padding: 8px 6px;
+    }
+
     /* Login */
     .login-card {
         margin: 24px;
