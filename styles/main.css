@@ -48,13 +48,13 @@ nav a:hover {
 }
 
 /* Hero Section */
-main section:first-child {
+.hero-section {
     text-align: center;
     padding: 80px 40px;
     background-color: #ffffff;
 }
 
-main section:first-child h1 {
+.hero-section h1 {
     font-size: 48px;
     font-weight: 700;
     color: #1a1a2e;
@@ -62,13 +62,13 @@ main section:first-child h1 {
     line-height: 1.2;
 }
 
-main section:first-child p {
+.hero-section p {
     font-size: 18px;
     color: #666666;
     margin-bottom: 32px;
 }
 
-main section:first-child a {
+.hero-section a {
     background-color: #1D9E75;
     color: #ffffff;
     padding: 14px 32px;
@@ -77,11 +77,11 @@ main section:first-child a {
     font-weight: 600;
 }
 
-main section:first-child a:hover {
+.hero-section a:hover {
     background-color: #178a63;
 }
 
-main section:nth-child(2) {
+.landing-stats {
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -89,33 +89,33 @@ main section:nth-child(2) {
     background-color: #f5f7fa;
 }
 
-main section:nth-child(2) h2 {
+.landing-stats h2 {
     font-size: 36px;
     font-weight: 700;
     color: #1D9E75;
     margin-bottom: 4px;
 }
 
-main section:nth-child(2) p {
+.landing-stats p {
     font-size: 14px;
     color: #666666;
 }
 
 /* Features Section */
-main section:nth-child(3) {
+.features-section {
     padding: 60px 40px;
     background-color: #ffffff;
     text-align: center;
 }
 
-main section:nth-child(3) h2 {
+.features-section h2 {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 40px;
     color: #1a1a2e;
 }
 
-main section:nth-child(3) div {
+.features-section div {
     display: inline-block;
     width: 22%;
     margin: 0 1%;
@@ -126,40 +126,40 @@ main section:nth-child(3) div {
     text-align: left;
 }
 
-main section:nth-child(3) h3 {
+.features-section h3 {
     font-size: 17px;
     font-weight: 600;
     color: #1D9E75;
     margin-bottom: 8px;
 }
 
-main section:nth-child(3) p {
+.features-section p {
     font-size: 14px;
     color: #666666;
     line-height: 1.6;
 }
 
 /* CTA Section */
-main section:nth-child(4) {
+.cta-section {
     padding: 80px 40px;
     background-color: #1D9E75;
     text-align: center;
 }
 
-main section:nth-child(4) h2 {
+.cta-section h2 {
     font-size: 32px;
     font-weight: 700;
     color: #ffffff;
     margin-bottom: 12px;
 }
 
-main section:nth-child(4) p {
+.cta-section p {
     font-size: 16px;
     color: #e0f5ee;
     margin-bottom: 32px;
 }
 
-main section:nth-child(4) a {
+.cta-section a {
     background-color: #ffffff;
     color: #1D9E75;
     padding: 14px 32px;
@@ -168,7 +168,7 @@ main section:nth-child(4) a {
     font-weight: 600;
 }
 
-main section:nth-child(4) a:hover {
+.cta-section a:hover {
     background-color: #f0f0f0;
 }
 
@@ -230,14 +230,14 @@ footer {
 
 .recent-courses {
     padding: 40px;
-    background-color: #ffffff !important;
-    color: #1a1a2e !important;
+    background-color: #ffffff;
+    color: #1a1a2e;
 }
 
 .recent-courses h2 {
     font-size: 24px;
     font-weight: 700;
-    color: #1a1a2e !important;
+    color: #1a1a2e;
     margin-bottom: 24px;
 }
 
@@ -258,7 +258,7 @@ footer {
 .recent-courses td {
     padding: 12px 16px;
     font-size: 14px;
-    color: #1a1a2e !important;
+    color: #1a1a2e;
     border-bottom: 1px solid #e0e0e0;
 }
 
@@ -277,11 +277,13 @@ footer {
 
 .basket-item {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 16px;
     margin-bottom: 16px;
+    width: 100%;
 }
-
+ 
 .basket-item span:first-child {
     width: 140px;
     font-size: 14px;
@@ -307,10 +309,4 @@ footer {
     font-size: 13px;
     color: #666666;
     text-align: right;
-}
-
-.basket-section .basket-item {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
 }
