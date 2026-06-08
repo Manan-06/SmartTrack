@@ -31,3 +31,18 @@ courseRows.forEach(function(row) {
         creditsEarnedEl.textContent = creditsEarned;
     });
 });
+
+//Login form handler
+const loginButton = document.querySelector('.login-card button');
+
+if (loginButton) {
+    loginButton.addEventListener('click', function(e) {
+        e.preventDefault();
+        const email = document.querySelector('.login-card input[type="email"]').value;
+        if (email ==='') {
+            alert('Please enter your email address');
+        } else {
+            alert('Welcome to SmartTrack, ' + email + '!');
+        }
+    });
+}
